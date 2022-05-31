@@ -1,4 +1,4 @@
-# my-app
+# studentApiFrontend
 
 ## Project setup
 ```
