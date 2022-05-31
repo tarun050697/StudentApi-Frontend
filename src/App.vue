@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <StudentData/>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StudentData from './components/StudentData'
+
+import "@hennge/vue3-pagination/dist/vue3-pagination.css";
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    StudentData,
+    
+    
   }
 }
 </script>
